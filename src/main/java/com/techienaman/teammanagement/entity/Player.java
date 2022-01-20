@@ -15,7 +15,6 @@ import java.time.LocalDateTime;
 @Setter
 @NoArgsConstructor
 @Entity
-@JsonIgnoreProperties({"team"})
 public class Player {
 
     @Id
